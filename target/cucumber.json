@@ -1,0 +1,378 @@
+[
+  {
+    "id": "testing-example-with-cucumber-version:-0.0.1",
+    "description": "",
+    "name": "Testing example with cucumber Version: 0.0.1",
+    "keyword": "Feature",
+    "line": 1,
+    "elements": [
+      {
+        "after": [
+          {
+            "result": {
+              "duration": 251989703,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FeaturesReader.cleanUp()"
+            }
+          }
+        ],
+        "id": "testing-example-with-cucumber-version:-0.0.1;search-something-in-google-and-check-if-the-result-it\u0027s-ok.;;2",
+        "description": "",
+        "name": "Search something in google and check if the result it\u0027s ok.",
+        "keyword": "Scenario Outline",
+        "line": 13,
+        "steps": [
+          {
+            "result": {
+              "duration": 13371959307,
+              "status": "passed"
+            },
+            "name": "I open in \"firefox\" and set the emulation to device \"\"",
+            "keyword": "Given ",
+            "line": 5,
+            "match": {
+              "arguments": [
+                {
+                  "val": "firefox",
+                  "offset": 11
+                },
+                {
+                  "val": "",
+                  "offset": 53
+                }
+              ],
+              "location": "FeaturesReader.openbrowser(String,String)"
+            },
+            "matchedColumns": [
+              1,
+              3
+            ]
+          },
+          {
+            "result": {
+              "duration": 1217783693,
+              "status": "passed"
+            },
+            "name": "I access to this \"https://www.google.com.ar/\"",
+            "keyword": "And ",
+            "line": 6,
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.google.com.ar/",
+                  "offset": 18
+                }
+              ],
+              "location": "FeaturesReader.accessToUrl(String)"
+            },
+            "matchedColumns": [
+              0
+            ]
+          },
+          {
+            "result": {
+              "duration": 267424958,
+              "status": "passed"
+            },
+            "name": "I type \"samsung note 4\" in the search field",
+            "keyword": "When ",
+            "line": 7,
+            "match": {
+              "arguments": [
+                {
+                  "val": "samsung note 4",
+                  "offset": 8
+                }
+              ],
+              "location": "FeaturesReader.enterValue(String)"
+            },
+            "matchedColumns": [
+              2
+            ]
+          },
+          {
+            "result": {
+              "duration": 446100586,
+              "status": "passed"
+            },
+            "name": "I click the search button",
+            "keyword": "And ",
+            "line": 8,
+            "match": {
+              "location": "FeaturesReader.googleSearch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 847684465,
+              "status": "passed"
+            },
+            "name": "I need check \"title\"",
+            "keyword": "Then ",
+            "line": 9,
+            "match": {
+              "arguments": [
+                {
+                  "val": "title",
+                  "offset": 14
+                }
+              ],
+              "location": "FeaturesReader.checkJavaDowlnoad(String)"
+            },
+            "matchedColumns": [
+              4
+            ]
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "after": [
+          {
+            "result": {
+              "duration": 1199242421,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FeaturesReader.cleanUp()"
+            }
+          }
+        ],
+        "id": "testing-example-with-cucumber-version:-0.0.1;search-something-in-google-and-check-if-the-result-it\u0027s-ok.;;3",
+        "description": "",
+        "name": "Search something in google and check if the result it\u0027s ok.",
+        "keyword": "Scenario Outline",
+        "line": 14,
+        "steps": [
+          {
+            "result": {
+              "duration": 3290765244,
+              "status": "passed"
+            },
+            "name": "I open in \"chrome\" and set the emulation to device \"\"",
+            "keyword": "Given ",
+            "line": 5,
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome",
+                  "offset": 11
+                },
+                {
+                  "val": "",
+                  "offset": 52
+                }
+              ],
+              "location": "FeaturesReader.openbrowser(String,String)"
+            },
+            "matchedColumns": [
+              1,
+              3
+            ]
+          },
+          {
+            "result": {
+              "duration": 3133990198,
+              "status": "passed"
+            },
+            "name": "I access to this \"https://www.google.com.ar/\"",
+            "keyword": "And ",
+            "line": 6,
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.google.com.ar/",
+                  "offset": 18
+                }
+              ],
+              "location": "FeaturesReader.accessToUrl(String)"
+            },
+            "matchedColumns": [
+              0
+            ]
+          },
+          {
+            "result": {
+              "duration": 129448171,
+              "status": "passed"
+            },
+            "name": "I type \"samsung note 4\" in the search field",
+            "keyword": "When ",
+            "line": 7,
+            "match": {
+              "arguments": [
+                {
+                  "val": "samsung note 4",
+                  "offset": 8
+                }
+              ],
+              "location": "FeaturesReader.enterValue(String)"
+            },
+            "matchedColumns": [
+              2
+            ]
+          },
+          {
+            "result": {
+              "duration": 86427001,
+              "status": "passed"
+            },
+            "name": "I click the search button",
+            "keyword": "And ",
+            "line": 8,
+            "match": {
+              "location": "FeaturesReader.googleSearch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 667088410,
+              "status": "passed"
+            },
+            "name": "I need check \"url\"",
+            "keyword": "Then ",
+            "line": 9,
+            "match": {
+              "arguments": [
+                {
+                  "val": "url",
+                  "offset": 14
+                }
+              ],
+              "location": "FeaturesReader.checkJavaDowlnoad(String)"
+            },
+            "matchedColumns": [
+              4
+            ]
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "after": [
+          {
+            "result": {
+              "duration": 1187889818,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FeaturesReader.cleanUp()"
+            }
+          }
+        ],
+        "id": "testing-example-with-cucumber-version:-0.0.1;search-something-in-google-and-check-if-the-result-it\u0027s-ok.;;4",
+        "description": "",
+        "name": "Search something in google and check if the result it\u0027s ok.",
+        "keyword": "Scenario Outline",
+        "line": 15,
+        "steps": [
+          {
+            "result": {
+              "duration": 3252739728,
+              "status": "passed"
+            },
+            "name": "I open in \"chrome\" and set the emulation to device \"\"",
+            "keyword": "Given ",
+            "line": 5,
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome",
+                  "offset": 11
+                },
+                {
+                  "val": "",
+                  "offset": 52
+                }
+              ],
+              "location": "FeaturesReader.openbrowser(String,String)"
+            },
+            "matchedColumns": [
+              1,
+              3
+            ]
+          },
+          {
+            "result": {
+              "duration": 3974097229,
+              "status": "passed"
+            },
+            "name": "I access to this \"https://www.google.com.ar/\"",
+            "keyword": "And ",
+            "line": 6,
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.google.com.ar/",
+                  "offset": 18
+                }
+              ],
+              "location": "FeaturesReader.accessToUrl(String)"
+            },
+            "matchedColumns": [
+              0
+            ]
+          },
+          {
+            "result": {
+              "duration": 137753873,
+              "status": "passed"
+            },
+            "name": "I type \"samsung note 4\" in the search field",
+            "keyword": "When ",
+            "line": 7,
+            "match": {
+              "arguments": [
+                {
+                  "val": "samsung note 4",
+                  "offset": 8
+                }
+              ],
+              "location": "FeaturesReader.enterValue(String)"
+            },
+            "matchedColumns": [
+              2
+            ]
+          },
+          {
+            "result": {
+              "duration": 88027219,
+              "status": "passed"
+            },
+            "name": "I click the search button",
+            "keyword": "And ",
+            "line": 8,
+            "match": {
+              "location": "FeaturesReader.googleSearch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 659435030,
+              "status": "passed"
+            },
+            "name": "I need check \"description\"",
+            "keyword": "Then ",
+            "line": 9,
+            "match": {
+              "arguments": [
+                {
+                  "val": "description",
+                  "offset": 14
+                }
+              ],
+              "location": "FeaturesReader.checkJavaDowlnoad(String)"
+            },
+            "matchedColumns": [
+              4
+            ]
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "com/example/page/object/cucumber/testgoogle.feature"
+  }
+]
